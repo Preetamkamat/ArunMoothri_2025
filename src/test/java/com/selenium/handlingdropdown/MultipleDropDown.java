@@ -3,13 +3,14 @@ package com.selenium.handlingdropdown;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.support.ui.Select;
 
 import java.util.List;
 
 public class MultipleDropDown {
     public static void main(String[] args) throws InterruptedException {
-        ChromeDriver driver = new ChromeDriver();
+        EdgeDriver driver = new EdgeDriver();
         driver.manage().window().maximize();
         driver.get("https://omayo.blogspot.com/");
         WebElement listBoxField = driver.findElement(By.id("multiselect1"));
