@@ -1,4 +1,4 @@
-package com.javapractice.javaarun.classandobject.two;
+package com.javapractice.javaarun.thiskeyword;
 
 public class Demo {
     public static void main(String[] args) {

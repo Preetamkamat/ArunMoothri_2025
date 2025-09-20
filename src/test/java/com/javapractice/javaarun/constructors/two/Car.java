@@ -1,4 +1,4 @@
-package com.javapractice.javaarun.classandobject.two;
+package com.javapractice.javaarun.constructors.two;
 
 public class Car {
     String company;
