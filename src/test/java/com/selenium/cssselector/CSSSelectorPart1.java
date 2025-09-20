@@ -13,6 +13,8 @@ public class CSSSelectorPart1 {
         driver.get("https://omayo.blogspot.com/");
         /*CSSSelector
         #id
+
+        test123723648ask chkashdg
         */
     }
 }
